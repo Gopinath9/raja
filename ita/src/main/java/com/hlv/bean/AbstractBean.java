@@ -22,10 +22,17 @@ public class AbstractBean<E> extends MessageBean {
 	protected int page = 1;
 	protected int maxPage = 5;
 	protected List<Long> ids;
- 
+	protected int one;
+	
 	 protected String s;
 	protected boolean error;
 
+	public void setOne(int one) {
+		this.one = one;
+	}
+	public int getOne() {
+		return one;
+	}
 	public String getSort() {
 		return sort;
 	}
