@@ -22,7 +22,8 @@ public class AbstractBean<E> extends MessageBean {
 	protected int page = 1;
 	protected int maxPage = 5;
 	protected List<Long> ids;
-
+ 
+	 protected String s;
 	protected boolean error;
 
 	public String getSort() {
